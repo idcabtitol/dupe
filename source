@@ -46,7 +46,7 @@ DupeStart.MouseButton1Down:connect(function()
 	if request then
 		lib.Message.New("Dupe has started!😯");
 	else
-		lib.Message.New(request2 and "Something went wrong. Try again!");
+		lib.Message.New(request2 and "Something went wrong, Why is this happening? 1: Maybe you don't own a bank 2: Your bank is full with gems/pets 3: if this keeps happening, dm the owner for help. adori#4462");
 		return;
 	end
 	if lib.Network.Invoke("Invite To Bank", mybanks[1]['BUID'], dupeKey) then
