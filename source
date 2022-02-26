@@ -1,0 +1,46 @@
+-- made by adori#4462
+
+-- Instances:
+
+local DupeGui = Instance.new("ScreenGui")
+local Meme = Instance.new("ImageLabel")
+local UICorner = Instance.new("UICorner")
+local DupeStart = Instance.new("ImageButton")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+
+--Properties:
+
+DupeGui.Name = "DupeGui"
+DupeGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+DupeGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Meme.Name = "Meme"
+Meme.Parent = DupeGui
+Meme.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Meme.Position = UDim2.new(0.460564613, 0, 0.0173410363, 0)
+Meme.Size = UDim2.new(0, 106, 0, 79)
+Meme.Image = "rbxassetid://7016416043"
+
+UICorner.Parent = Meme
+
+DupeStart.Name = "DupeStart"
+DupeStart.Parent = DupeGui
+DupeStart.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DupeStart.Position = UDim2.new(0.476629376, 0, 0.190751493, 0)
+DupeStart.Size = UDim2.new(0, 61, 0, 44)
+DupeStart.Image = "rbxassetid://7428394112"
+
+UICorner_2.Parent = DupeStart
+
+TextLabel.Parent = DupeGui
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.547847569, 0, 0.0173410475, 0)
+TextLabel.Size = UDim2.new(0, 147, 0, 79)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "Press the Mouse to start duping!"
+TextLabel.TextColor3 = Color3.fromRGB(244, 244, 244)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
